@@ -30,6 +30,16 @@
         "foregroundImage": "./image/icon-img.png",
         "backgroundColor": "#FFFFFF"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ]
   }
 }
